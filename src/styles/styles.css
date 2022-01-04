@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 13rem;
+}
+
+body {
+  background-color: #303030;
+  font-family: 'Heebo', sans-serif;
+}
+
+.weatherCard {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 680px;
+  height: 550px;
+  border-radius: 50px;
+  background: rgb(187, 182, 182);
+  box-shadow: 10px 9px 16px -3px rgba(0,0,0,0.65);
+-webkit-box-shadow: 10px 9px 16px -3px rgba(0,0,0,0.65);
+-moz-box-shadow: 10px 9px 16px -3px rgba(0,0,0,0.65);
+}
+
+/* Typhography */
+
+.weatherCard h1 {
+  font: 40px italic;
+ 
+}
+
+.weatherCard h2 {
+  position: relative;
+  bottom: 30px;
+}
+
+/* Items on our weather card */
+.weatherCard .data {
+  position: relative;
+  left: 150px; top: 20px;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weatherCard img {
+  position: relative;
+  right: 350px; bottom: 480px;
+  width: 300px;
+  height: auto;
+}
+
+.weatherCard .temp {
+  position: relative;
+  top: -150px;
+  right: 400px;
+  font-size: 35px;
+}
+
+.weatherCard .grades {
+  font-style: oblique;
+}
+
+.weatherCard .des1 {
+  text-transform: uppercase;
+  border-bottom: 1px solid blue;
+}
+
+.weatherCard .des2 {
+  text-transform: uppercase;
+  border-bottom: 1px solid blue;
+}
+
+.weatherCard ul {
+  list-style: none;
+}
+
+
+.lower {
+  text-transform: lowercase;
+}
+
+.weatherCard .des3 {
+  text-transform: uppercase;
+  border-bottom: 1px solid blue;
+}
+
+.minMaxTemp {
+  position: relative;
+  right: 2.4rem;
+  font-size: 18px;
+}
+
+/* Date */
+
+.date {
+ position: relative;
+ top: -420px; right: 150px;
+ font-size: 20px;
+}
+
+/* Icons */
+
+.fa-cloud {
+  position: relative;
+  right: 40px;
+  top: 39px;
+}
+
+.fa-wind {
+  position: relative;
+  right: 70px;
+  top: 75px;
+}
+
+.fa-tint {
+  position: relative;
+  right: 89px;
+  top: 110px;
+}
+
+.fa-sync-alt {
+  background: none;
+  font-size: 30px;
+  color: rgba(36, 107, 214, 0.563);
+}
+
+/* Buttons */
+
+.btn {
+  position: relative;
+  top: 3rem; right: 10rem;
+  width: 12rem;
+  height: 2rem;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(36, 107, 214, 0.563);
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
+
+.btn2 {
+  border: none;
+  background: none;
+  position: relative;
+  bottom: 470px; left: 110px;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  transform: scale(1.2);
+}
+
+/* Clock */
+
+.clock {
+  position: relative;
+  bottom: 350px; right: 370px;
+  font-size: 20px;
+  color: lightblue;
+}
